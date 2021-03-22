@@ -28,6 +28,7 @@
 	data-sidebar-position="fixed" data-header-position="fixed" data-boxed-layout="full">
 	<?php require_once 'header.php'; ?>
 	<?php require_once 'sidebar.php'; ?>
+	<?php // Gelen posta göre while ile mail durumu 1 olanlara mail gönder. ?>
 	<div class="page-wrapper"> 
 		<div class="container-fluid">
 			<div class="row">
